@@ -33,7 +33,7 @@ const cron = require('node-cron');
 
 
 app.get('*', function(req, res) {
-    res.redirect('http://0.0.0.0/'); //ganti dengan url domain Anda
+    res.redirect('http://localhost/'); //ganti dengan url domain Anda
 });
 
 //konfigurasi koneksi
@@ -53,7 +53,7 @@ db.connect((err) =>{
 // sesuaikan dengan domain yang digunakan
 const configs = {
     port: 3000, // custom port to access server
-    url_callback : 'http:://0.0.0.0/helper/callback.php'
+    url_callback : 'http:://localhost/helper/callback.php'
 };
 // cronjob
 
