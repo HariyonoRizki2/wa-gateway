@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
+$host = "containers-us-west-112.railway.app";
 $username = "root";
-$password = "";
-$db = "wav4";
+$password = "S439wzoOogCS75UfyyTp";
+$db = "railway";
 error_reporting(0);
 $koneksi = mysqli_connect($host, $username, $password, $db) or die("GAGAL");
 
