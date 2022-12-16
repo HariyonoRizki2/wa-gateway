@@ -7,5 +7,5 @@ $db = "railway";
 error_reporting(0);
 $koneksi = mysqli_connect($host, $username, $password, $db) or die("GAGAL");
 
-$base_url = "http://0.0.0.0/";
+$base_url = "http://localhost/";
 date_default_timezone_set('Asia/Jakarta');
