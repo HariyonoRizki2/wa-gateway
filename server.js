@@ -33,7 +33,7 @@ const cron = require('node-cron');
 
 
 app.get('*', function(req, res) {
-    res.redirect('https://wa-gateway-production.up.railway.app/'); //ganti dengan url domain Anda
+    res.redirect('http://0.0.0.0/'); //ganti dengan url domain Anda
 });
 
 //konfigurasi koneksi
@@ -53,7 +53,7 @@ db.connect((err) =>{
 // sesuaikan dengan domain yang digunakan
 const configs = {
     port: 3000, // custom port to access server
-    url_callback : 'https://wa-gateway-production.up.railway.app/helper/callback.php'
+    url_callback : 'http:://0.0.0.0/helper/callback.php'
 };
 // cronjob
 
