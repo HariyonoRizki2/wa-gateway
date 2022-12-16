@@ -38,10 +38,10 @@ app.get('*', function(req, res) {
 
 //konfigurasi koneksi
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'containers-us-west-112.railway.app',
   user: 'root',
-  password: '',
-  database: 'wav4'
+  password: 'S439wzoOogCS75UfyyTp',
+  database: 'railway'
 });
  
 //connect ke database
